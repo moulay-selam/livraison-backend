@@ -1,148 +1,167 @@
-# 🌐 WASALI Web
+🌐 WASALI Web
 
-### Plateforme intelligente de livraison collaborative
+Plateforme intelligente de livraison collaborative nationale et internationale
 
-WASALI Web est l'application web de la plateforme **WASALI** permettant aux expéditeurs, voyageurs et administrateurs de gérer les opérations de livraison collaborative nationale et internationale.
+￼ ￼ ￼ ￼ ￼
 
----
+📖 À propos
 
-# 🚀 Fonctionnalités
+WASALI Web est l'application web de la plateforme WASALI, développée dans le cadre d'un Projet de Fin d'Études (PFE).
+La plateforme permet de connecter les expéditeurs, les voyageurs et les administrateurs afin de faciliter la livraison collaborative de colis à l'échelle nationale et internationale.
 
-## 👤 Authentification
+🚀 Fonctionnalités
 
-- Inscription et connexion
-- Authentification JWT
-- Gestion du profil utilisateur
+👤 Authentification
 
-## 📦 Gestion des colis
+Inscription et connexion sécurisées
 
-- Création et publication des colis
-- Consultation des colis disponibles
-- Suivi du statut des livraisons
-- Historique des colis
+Authentification JWT
 
-## ✈️ Gestion des trajets
+Gestion du profil utilisateur
 
-- Publication des trajets
-- Consultation des trajets disponibles
-- Acceptation ou refus des demandes
-- Gestion des disponibilités des voyageurs
+Gestion des rôles
 
-## 📍 Suivi en temps réel
+📦 Gestion des colis
 
-- Localisation GPS des voyageurs
-- Suivi des livraisons
-- Notifications en temps réel
+Création et publication des colis
 
-## 🔐 Sécurité
+Consultation des colis disponibles
 
-- Authentification JWT
-- Protection des routes
-- Validation des données
+Suivi des livraisons
 
-## 📊 Tableau de bord
+Historique des colis
 
-- Gestion des utilisateurs
-- Gestion des colis
-- Gestion des trajets
-- Statistiques générales
+✈️ Gestion des trajets
 
----
+Publication des trajets
 
-# 🛠️ Technologies utilisées
+Consultation des trajets disponibles
 
-- React
-- TypeScript / JavaScript
-- React Router
-- Axios
-- Context API
-- Tailwind CSS
-- React Hook Form
-- JWT Authentication
-- REST API
+Acceptation ou refus des demandes
 
----
+Gestion des disponibilités des voyageurs
 
-# 📦 Installation
+📍 Suivi en temps réel
 
-## Prérequis
+Géolocalisation GPS
 
-- Node.js
-- npm
+Suivi des livraisons
 
-## Installation
+Notifications en temps réel
 
-```bash
-npm install
-```
+🔐 Sécurité
 
-## Lancement du projet
+JWT Authentication
 
-```bash
-npm run dev
-```
+Protection des routes
 
-## Build de production
+Validation des données
 
-```bash
-npm run build
-```
+Contrôle des accès
 
----
+📊 Tableau de bord
 
-# 📁 Structure du projet
+Gestion des utilisateurs
 
-```text
-frontend/
-├── public/
-├── src/
-│   ├── components/
-│   ├── pages/
-│   ├── services/
-│   ├── hooks/
-│   ├── context/
-│   ├── layouts/
-│   ├── routes/
-│   └── assets/
-├── package.json
-└── vite.config.js
-```
+Gestion des colis
 
----
+Gestion des trajets
 
-# 🔗 Backend API
+Statistiques générales
 
-Le frontend communique avec un backend Spring Boot fournissant :
+🛠️ Technologies utilisées
 
-- Authentification JWT
-- Gestion des colis
-- Gestion des trajets
-- Notifications
-- Confirmation OTP
-- Suivi GPS
+TechnologieDescriptionReactInterface utilisateurViteBuild ToolJavaScript / TypeScriptDéveloppement FrontendReact RouterNavigationAxiosCommunication APIContext APIGestion de l'étatTailwind CSSDesign et interfaceJWTAuthentificationREST APICommunication Backend 
 
----
+📁 Structure du projet
 
-# 👨‍💻 Auteur
+frontend/ ├── public/ ├── src/ │ ├── assets/ │ ├── components/ │ ├── context/ │ ├── hooks/ │ ├── layouts/ │ ├── pages/ │ ├── routes/ │ ├── services/ │ └── App.jsx ├── package.json ├── vite.config.js └── README.md 
 
-**Moulaye Elhacen Selam**  
-Licence en Informatique (MIAGE)  
-Faculté des Sciences et Techniques  
+⚙️ Installation
+
+Cloner le projet
+
+git clone https://github.com/Mouaye4849/livraison-project.git 
+
+Accéder au dossier Frontend
+
+cd frontend 
+
+Installer les dépendances
+
+npm install 
+
+Lancer l'application
+
+npm run dev 
+
+Générer le build de production
+
+npm run build 
+
+Prévisualiser le build
+
+npm run preview 
+
+🔗 Backend Spring Boot
+
+Le frontend communique avec une API REST développée avec Spring Boot.
+
+Fonctionnalités du Backend
+
+Authentification JWT
+
+Gestion des colis
+
+Gestion des trajets
+
+Notifications
+
+Vérification OTP
+
+Suivi GPS
+
+API REST sécurisée
+
+Démarrer le Backend
+
+cd livraison-backend mvn spring-boot:run 
+Ou :
+./mvnw spring-boot:run 
+
+🏗️ Architecture
+
+React Frontend │ ▼ REST API │ ▼ Spring Boot Backend │ ▼ PostgreSQL 
+
+👨‍💻 Auteur
+
+Moulaye Elhacen Selam
+Licence en Informatique (MIAGE)
+Faculté des Sciences et Techniques
 Université de Nouakchott Al Aasriya
 
----
+🎓 Projet de Fin d'Études
 
-# 🎓 Projet de Fin d'Études
+WASALI
 
-**WASALI – Système de livraison nationale et internationale de colis par les voyageurs**
+Conception et développement d'un système de livraison nationale et internationale de colis par les voyageurs.
 
-### Développé avec
+Technologies du projet
 
-- Spring Boot
-- React
-- React Native
-- PostgreSQL
-- JWT Authentication
-- GPS Tracking
+Spring Boot
 
-**Année universitaire : 2025 – 2026**
+React
+
+React Native
+
+PostgreSQL
+
+JWT Authentication
+
+GPS Tracking
+
+OTP Verification
+
+Année universitaire
+
+2025 – 2026
