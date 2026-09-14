@@ -1,147 +1,148 @@
-🌐 WASALI Web
+# 🌐 WASALI Web
 
-Plateforme intelligente de livraison collaborative
+### Plateforme intelligente de livraison collaborative
 
-WASALI Web est l'application web de la plateforme WASALI permettant aux expéditeurs, voyageurs et administrateurs de gérer les opérations de livraison collaborative nationale et internationale.
+WASALI Web est l'application web de la plateforme **WASALI** permettant aux expéditeurs, voyageurs et administrateurs de gérer les opérations de livraison collaborative nationale et internationale.
 
-🚀 Fonctionnalités
+---
 
-👤 Authentification
+# 🚀 Fonctionnalités
 
-Inscription et connexion
+## 👤 Authentification
 
-Authentification JWT
+- Inscription et connexion
+- Authentification JWT
+- Gestion du profil utilisateur
 
-Gestion du profil utilisateur
+## 📦 Gestion des colis
 
-📦 Gestion des colis
+- Création et publication des colis
+- Consultation des colis disponibles
+- Suivi du statut des livraisons
+- Historique des colis
 
-Création et publication des colis
+## ✈️ Gestion des trajets
 
-Consultation des colis disponibles
+- Publication des trajets
+- Consultation des trajets disponibles
+- Acceptation ou refus des demandes
+- Gestion des disponibilités des voyageurs
 
-Suivi du statut des livraisons
+## 📍 Suivi en temps réel
 
-Historique des colis
+- Localisation GPS des voyageurs
+- Suivi des livraisons
+- Notifications en temps réel
 
-✈️ Gestion des trajets
+## 🔐 Sécurité
 
-Publication des trajets
+- Authentification JWT
+- Protection des routes
+- Validation des données
 
-Consultation des trajets disponibles
+## 📊 Tableau de bord
 
-Acceptation ou refus des demandes
+- Gestion des utilisateurs
+- Gestion des colis
+- Gestion des trajets
+- Statistiques générales
 
-Gestion des disponibilités des voyageurs
+---
 
-📍 Suivi en temps réel
+# 🛠️ Technologies utilisées
 
-Localisation GPS des voyageurs
+- React
+- TypeScript / JavaScript
+- React Router
+- Axios
+- Context API
+- Tailwind CSS
+- React Hook Form
+- JWT Authentication
+- REST API
 
-Suivi des livraisons
+---
 
-Notifications en temps réel
+# 📦 Installation
 
-🔐 Sécurité
+## Prérequis
 
-Authentification JWT
+- Node.js
+- npm
 
-Protection des routes
+## Installation
 
-Validation des données
+```bash
+npm install
+```
 
-📊 Tableau de bord
+## Lancement du projet
 
-Gestion des utilisateurs
+```bash
+npm run dev
+```
 
-Gestion des colis
+## Build de production
 
-Gestion des trajets
+```bash
+npm run build
+```
 
-Statistiques générales
+---
 
-🛠️ Technologies utilisées
+# 📁 Structure du projet
 
-React
+```text
+frontend/
+├── public/
+├── src/
+│   ├── components/
+│   ├── pages/
+│   ├── services/
+│   ├── hooks/
+│   ├── context/
+│   ├── layouts/
+│   ├── routes/
+│   └── assets/
+├── package.json
+└── vite.config.js
+```
 
-TypeScript / JavaScript
+---
 
-React Router
-
-Axios
-
-Context API
-
-Tailwind CSS
-
-React Hook Form
-
-JWT Authentication
-
-REST API
-
-📦 Installation
-
-Prérequis
-
-Node.js
-
-npm
-
-Installation
-
-npm install 
-
-Lancement du projet
-
-npm run dev 
-
-Build de production
-
-npm run build 
-
-📁 Structure du projet
-
-frontend/ ├── public/ ├── src/ │ ├── components/ │ ├── pages/ │ ├── services/ │ ├── hooks/ │ ├── context/ │ ├── layouts/ │ ├── routes/ │ └── assets/ ├── package.json └── vite.config.js 
-
-🔗 Backend API
+# 🔗 Backend API
 
 Le frontend communique avec un backend Spring Boot fournissant :
 
-Authentification JWT
+- Authentification JWT
+- Gestion des colis
+- Gestion des trajets
+- Notifications
+- Confirmation OTP
+- Suivi GPS
 
-Gestion des colis
+---
 
-Gestion des trajets
+# 👨‍💻 Auteur
 
-Notifications
-
-Confirmation OTP
-
-Suivi GPS
-
-👨‍💻 Auteur
-
-Moulaye Elhacen Selam
-Licence en Informatique (MIAGE)
-Faculté des Sciences et Techniques
+**Moulaye Elhacen Selam**  
+Licence en Informatique (MIAGE)  
+Faculté des Sciences et Techniques  
 Université de Nouakchott Al Aasriya
 
-🎓 Projet de Fin d'Études
+---
 
-WASALI – Système de livraison nationale et internationale de colis par les voyageurs
-Développé avec :
+# 🎓 Projet de Fin d'Études
 
-Spring Boot
+**WASALI – Système de livraison nationale et internationale de colis par les voyageurs**
 
-React
+### Développé avec
 
-React Native
+- Spring Boot
+- React
+- React Native
+- PostgreSQL
+- JWT Authentication
+- GPS Tracking
 
-PostgreSQL
-
-JWT Authentication
-
-GPS Tracking
-
-Année universitaire : 2025 – 2026
+**Année universitaire : 2025 – 2026**
