@@ -1,186 +1,249 @@
-🌐 WASALI Web
+# 🌐 WASALI Web
 
-Plateforme intelligente de livraison collaborative nationale et internationale
+### Plateforme intelligente de livraison collaborative nationale et internationale
 
-WASALI Web est l'application web de la plateforme WASALI, développée dans le cadre d'un Projet de Fin d'Études (PFE).
-La plateforme permet de connecter les expéditeurs, les voyageurs et les administrateurs afin de faciliter la livraison collaborative de colis à l'échelle nationale et internationale.
+WASALI Web est l'application web de la plateforme **WASALI**, développée dans le cadre d'un **Projet de Fin d'Études (PFE)**.
 
-📖 À propos
+La plateforme permet de connecter les **expéditeurs**, les **voyageurs** et les **administrateurs** afin de faciliter la livraison collaborative de colis à l'échelle nationale et internationale.
+
+---
+
+# 📖 À propos
 
 WASALI est une plateforme intelligente de livraison collaborative permettant aux voyageurs de transporter des colis pour des expéditeurs lors de leurs déplacements entre différentes villes ou pays.
+
 Le système comprend :
 
-🌐 Application Web (React)
+- 🌐 Application Web (React)
+- 📱 Application Mobile (React Native)
+- ⚙️ API Backend (Spring Boot)
+- 🗄️ Base de données PostgreSQL
 
-📱 Application Mobile (React Native)
+---
 
-⚙️ API Backend (Spring Boot)
+# 🚀 Fonctionnalités
 
-🗄️ Base de données PostgreSQL
+## 👤 Authentification
 
-🚀 Fonctionnalités
+- Inscription et connexion sécurisées
+- Authentification JWT
+- Gestion du profil utilisateur
+- Gestion des rôles
 
-👤 Authentification
+## 📦 Gestion des colis
 
-Inscription et connexion sécurisées
+- Création et publication des colis
+- Consultation des colis disponibles
+- Suivi des livraisons
+- Historique des colis
 
-Authentification JWT
+## ✈️ Gestion des trajets
 
-Gestion du profil utilisateur
+- Publication des trajets
+- Consultation des trajets disponibles
+- Acceptation ou refus des demandes
+- Gestion des disponibilités des voyageurs
 
-Gestion des rôles
+## 📍 Suivi en temps réel
 
-📦 Gestion des colis
+- Géolocalisation GPS
+- Suivi des livraisons
+- Notifications en temps réel
 
-Création et publication des colis
+## 🔐 Sécurité
 
-Consultation des colis disponibles
+- JWT Authentication
+- Protection des routes
+- Validation des données
+- Contrôle des accès
 
-Suivi des livraisons
+## 📊 Tableau de bord
 
-Historique des colis
+- Gestion des utilisateurs
+- Gestion des colis
+- Gestion des trajets
+- Statistiques générales
 
-✈️ Gestion des trajets
+---
 
-Publication des trajets
+# 🛠️ Technologies utilisées
 
-Consultation des trajets disponibles
+## Frontend
 
-Acceptation ou refus des demandes
+- React
+- Vite
+- JavaScript / TypeScript
+- React Router
+- Axios
+- Context API
+- Tailwind CSS
 
-Gestion des disponibilités des voyageurs
+## Backend
 
-📍 Suivi en temps réel
+- Spring Boot
+- Spring Security
+- JWT Authentication
+- REST API
 
-Géolocalisation GPS
+## Base de données
 
-Suivi des livraisons
+- PostgreSQL
 
-Notifications en temps réel
+---
 
-🔐 Sécurité
+# 📁 Structure du projet
 
-JWT Authentication
+## Frontend
 
-Protection des routes
+```text
+frontend/
+├── public/
+├── src/
+│   ├── assets/
+│   ├── components/
+│   ├── context/
+│   ├── hooks/
+│   ├── layouts/
+│   ├── pages/
+│   ├── routes/
+│   ├── services/
+│   └── App.jsx
+├── package.json
+├── vite.config.js
+└── README.md
+```
 
-Validation des données
+## Backend
 
-Contrôle des accès
+```text
+livraison-backend/
+├── .mvn/
+├── logs/
+├── uploads/
+├── src/
+│   ├── main/
+│   │   ├── java/com/livraison/backend/
+│   │   │   ├── auth/
+│   │   │   ├── config/
+│   │   │   ├── controller/
+│   │   │   ├── dto/
+│   │   │   ├── entity/
+│   │   │   ├── exception/
+│   │   │   ├── repository/
+│   │   │   ├── security/
+│   │   │   ├── service/
+│   │   │   └── LivraisonBackendApplication.java
+│   │   └── resources/
+│   └── test/java/com/livraison/backend/
+├── pom.xml
+├── mvnw
+└── README.md
+```
 
-📊 Tableau de bord
+---
 
-Gestion des utilisateurs
+# ⚙️ Installation
 
-Gestion des colis
+## Cloner le projet
 
-Gestion des trajets
+```bash
+git clone https://github.com/Mouaye4849/livraison-project.git
+```
 
-Statistiques générales
+## Frontend
 
-🛠️ Technologies utilisées
+```bash
+cd frontend
+npm install
+npm run dev
+```
 
-React
+### Build de production
 
-Vite
+```bash
+npm run build
+```
 
-JavaScript / TypeScript
+### Prévisualiser le build
 
-React Router
+```bash
+npm run preview
+```
 
-Axios
+## Backend
 
-Context API
+```bash
+cd livraison-backend
+mvn spring-boot:run
+```
 
-Tailwind CSS
+Ou :
 
-JWT Authentication
+```bash
+./mvnw spring-boot:run
+```
 
-REST API
+---
 
-📁 Structure du projet
-
-frontend/ ├── public/ ├── src/ │ ├── assets/ │ ├── components/ │ ├── context/ │ ├── hooks/ │ ├── layouts/ │ ├── pages/ │ ├── routes/ │ ├── services/ │ └── App.jsx ├── package.json ├── vite.config.js └── README.md 
-
-⚙️ Installation
-
-Cloner le projet
-
-git clone https://github.com/Mouaye4849/livraison-project.git 
-
-Accéder au Frontend
-
-cd frontend 
-
-Installer les dépendances
-
-npm install 
-
-Lancer l'application
-
-npm run dev 
-
-Générer le build de production
-
-npm run build 
-
-Prévisualiser le build
-
-npm run preview 
-
-🔗 Backend Spring Boot
+# 🔗 Backend Spring Boot
 
 Le frontend communique avec une API REST développée avec Spring Boot.
 
-Fonctionnalités du Backend
+## Fonctionnalités du Backend
 
-Authentification JWT
+- Authentification JWT
+- Gestion des colis
+- Gestion des trajets
+- Notifications
+- Vérification OTP
+- Suivi GPS en temps réel
+- API REST sécurisée
 
-Gestion des colis
+---
 
-Gestion des trajets
+# 🏗️ Architecture
 
-Notifications
+```text
+React Frontend
+       │
+       ▼
+     REST API
+       │
+       ▼
+Spring Boot Backend
+       │
+       ▼
+   PostgreSQL
+```
 
-Vérification OTP
+---
 
-Suivi GPS
+# 👨‍💻 Auteur
 
-API REST sécurisée
+**Moulaye Elhacen Selam**
 
-🏗️ Architecture
-
-React Frontend │ ▼ REST API │ ▼ Spring Boot Backend │ ▼ PostgreSQL 
-
-👨‍💻 Auteur
-
-Moulaye Elhacen Selam
-Licence en Informatique (MIAGE)
-Faculté des Sciences et Techniques
+Licence en Informatique (MIAGE)  
+Faculté des Sciences et Techniques  
 Université de Nouakchott Al Aasriya
 
-🎓 Projet de Fin d'Études
+---
 
-WASALI
+# 🎓 Projet de Fin d'Études
+
+## WASALI
 
 Conception et développement d'un système de livraison nationale et internationale de colis par les voyageurs.
 
-Technologies du projet
+## Technologies du projet
 
-Spring Boot
+- Spring Boot
+- React
+- React Native
+- PostgreSQL
+- JWT Authentication
+- GPS Tracking
+- OTP Verification
 
-React
+## Année universitaire
 
-React Native
-
-PostgreSQL
-
-JWT Authentication
-
-GPS Tracking
-
-OTP Verification
-
-Année universitaire
-
-2025 – 2026
+**2025 – 2026**
