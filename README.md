@@ -2,12 +2,21 @@
 
 Plateforme intelligente de livraison collaborative nationale et internationale
 
-￼ ￼ ￼ ￼ ￼
+WASALI Web est l'application web de la plateforme WASALI, développée dans le cadre d'un Projet de Fin d'Études (PFE).
+La plateforme permet de connecter les expéditeurs, les voyageurs et les administrateurs afin de faciliter la livraison collaborative de colis à l'échelle nationale et internationale.
 
 📖 À propos
 
-WASALI Web est l'application web de la plateforme WASALI, développée dans le cadre d'un Projet de Fin d'Études (PFE).
-La plateforme permet de connecter les expéditeurs, les voyageurs et les administrateurs afin de faciliter la livraison collaborative de colis à l'échelle nationale et internationale.
+WASALI est une plateforme intelligente de livraison collaborative permettant aux voyageurs de transporter des colis pour des expéditeurs lors de leurs déplacements entre différentes villes ou pays.
+Le système comprend :
+
+🌐 Application Web (React)
+
+📱 Application Mobile (React Native)
+
+⚙️ API Backend (Spring Boot)
+
+🗄️ Base de données PostgreSQL
 
 🚀 Fonctionnalités
 
@@ -71,7 +80,23 @@ Statistiques générales
 
 🛠️ Technologies utilisées
 
-TechnologieDescriptionReactInterface utilisateurViteBuild ToolJavaScript / TypeScriptDéveloppement FrontendReact RouterNavigationAxiosCommunication APIContext APIGestion de l'étatTailwind CSSDesign et interfaceJWTAuthentificationREST APICommunication Backend 
+React
+
+Vite
+
+JavaScript / TypeScript
+
+React Router
+
+Axios
+
+Context API
+
+Tailwind CSS
+
+JWT Authentication
+
+REST API
 
 📁 Structure du projet
 
@@ -83,7 +108,7 @@ Cloner le projet
 
 git clone https://github.com/Mouaye4849/livraison-project.git 
 
-Accéder au dossier Frontend
+Accéder au Frontend
 
 cd frontend 
 
@@ -122,12 +147,6 @@ Vérification OTP
 Suivi GPS
 
 API REST sécurisée
-
-Démarrer le Backend
-
-cd livraison-backend mvn spring-boot:run 
-Ou :
-./mvnw spring-boot:run 
 
 🏗️ Architecture
 
